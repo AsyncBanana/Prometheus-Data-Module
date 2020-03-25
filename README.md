@@ -1,5 +1,5 @@
 # Prometheus-Data-Module
-### WARNING: THIS IS VERY NEW AND MAY HAVE BUGS! Open a issue if you find one.
+### WARNING: THIS IS VERY NEW AND MAY HAVE BUGS! Do not use for public work. Open a issue if you find one.
 
 ## The future of Roblox datastores
 A simple yet powerful Roblox datastore manager with many easily customizable settings and features, such as not saving in studio (you can turn it on and off in the settings), automatic data table managment that will manage making a table out of the player's data, getting the table when needed, and saving the table when the player leaves, without you having to get your hands metaphorically dirty.
