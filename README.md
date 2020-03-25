@@ -11,5 +11,11 @@ Using PDM is even easier than Leaderstats-type datastores, while being more powe
 #### Designed for beginners
 Instead of whacking your head while staring at the official Roblox data module (Link to the official one: https://developer.roblox.com/en-us/articles/Saving-Player-Data) move ahead with your game using PDM.
 #### Full of potential and customization
-With 8 (and more to come) different functions you can call on and 8 (total coincidence) different settings to customize how you use your data, you can customize the module to your hearts content just by changing some of the build in settings. (Disclamer: There is a chance that you can't customize it enough, and if you can't, open an issue here.)
-To be continued...
+With more than 8 (and more to come) different functions and settings to customize how you use your data, you can customize the module to your hearts content just by changing some of the settings. (Disclamer: There is a chance that you can't customize it enough, and if you can't, open an issue here.)
+#### Both support for player data saving and game data saving
+You can both use the player object or a name as input for a PDM function. (Currently, if your game runs multiple servers at once, there isn't a cross server messageing system in place yet, you will have to make one yourself.
+## Other Stuff
+#### Current Major Known Bug
+For some reason when the player leaves it should automatically clear and save their data, but it yield infinitly at the SetAsync command in the Update function. If you have a solution please make a pull request.
+#### Feedback needed!
+If you have a bug/enhancment that needs to be fixed or have a potential solution to the player saving when leaving problem, open an issue or use a pull request.
