@@ -16,7 +16,5 @@ With more than 8 (and more to come) different functions and settings to customiz
 #### Both support for player data saving and game data saving
 You can both use the player object or a name as input for a PDM function. (Currently, if your game runs multiple servers at once, there isn't a cross server messageing system in place yet, you will have to make one yourself.
 ## Other Stuff
-#### Current Major Known Bug
-For some reason when the player leaves it should automatically clear and save their data, but it yield infinitly at the SetAsync command in the Update function. If you have a solution please make a pull request.
 #### Feedback needed!
 If you have a bug/enhancment that needs to be fixed or have a potential solution to the player saving when leaving problem, open an issue or use a pull request.
